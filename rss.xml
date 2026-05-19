@@ -1,11 +1,224 @@
-# RSS Feed
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
 
-A repository for RSS feed management and processing.
+<channel>
+    <title>Maritime Shipping Updates</title>
+    <atom:link href="https://example.com/maritime-updates/feed/" rel="self" type="application/rss+xml" />
+    <link>https://example.com/maritime-updates/</link>
+    <description>Latest incidents, safety issues, health alerts, and regulatory updates from the cruise and maritime shipping industry.</description>
+    <lastBuildDate>Tue, 19 May 2026 12:44:00 GMT</lastBuildDate>
+    <language>en-US</language>
+    <generator>Grok RSS Converter</generator>
 
-## Getting Started
+    <image>
+        <url>https://example.com/maritime-icon.png</url>
+        <title>Maritime Shipping Updates</title>
+        <link>https://example.com/maritime-updates/</link>
+    </image>
 
-This project is currently in development.
+    <!-- Item 1 -->
+    <item>
+        <title>Cruise Passenger Dies After Going Overboard from Carnival Liberty in Bahamas</title>
+        <link>https://www.cruiselawnews.com/2026/05/articles/death-injury/cruise-passenger-dies-after-going-overboard-in-bahamas/</link>
+        <guid isPermaLink="false">https://www.cruiselawnews.com/?p=28992</guid>
+        <pubDate>Thu, 14 May 2026 05:25:25 +0000</pubDate>
+        <dc:creator>Jim Walker</dc:creator>
+        <category>Overboard Incident</category>
+        <category>Carnival Cruise Line</category>
+        <description><![CDATA[
+            <p><strong>Incident:</strong> A man died after jumping from his balcony on the Carnival Liberty while sailing from Celebration Key to Nassau, Bahamas.</p>
+            <p>Crew located and retrieved him, but he did not survive. The ship altered course for approximately one hour during search and rescue.</p>
+            <p>This is the 437th recorded overboard incident since 2000.</p>
+            <p><em>Source images and tracking:</em> Carnival Liberty location map and incident timeline available in original report.</p>
+            <p><strong>Images:</strong></p>
+            <ul>
+                <li><img src="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/05/image-1-592x740.png" alt="Carnival Liberty Location Map (The Cruise Globe)" style="max-width:100%;height:auto;" /><br/><em>Carnival Liberty Location Map showing course change during search and rescue (The Cruise Globe)</em></li>
+            </ul>
+        ]]></description>
+        <media:content url="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/05/image-1-592x740.png" medium="image" width="592" height="740">
+            <media:description>Carnival Liberty Location Map (The Cruise Globe)</media:description>
+        </media:content>
+    </item>
 
-## License
+    <!-- Item 2 -->
+    <item>
+        <title>Over 200 Foreign Crew Members Deported by U.S. Authorities Over Alleged CSAM Cases</title>
+        <link>https://www.cruiselawnews.com/2026/05/articles/opinion/over-200-deported-foreign-crew-members-u-s-federal-immigration-agents-continue-to-strip-cruise-workers-of-their-due-process-rights/</link>
+        <guid isPermaLink="false">https://www.cruiselawnews.com/?p=28857</guid>
+        <pubDate>Wed, 13 May 2026 20:23:25 +0000</pubDate>
+        <dc:creator>Jim Walker</dc:creator>
+        <category>Crew Immigration</category>
+        <category>Disney Cruise Line</category>
+        <description><![CDATA[
+            <p><strong>Incident:</strong> U.S. CBP and ICE conducted raids on multiple cruise ships, including Disney vessels, detaining and deporting over 200 crew members (primarily Filipino) accused of viewing child sexual abuse material (CSAM).</p>
+            <p>Most were deported without criminal prosecution. Reports highlight concerns over due process, lack of evidence transparency, and treatment of crew.</p>
+            <p><strong>Images:</strong></p>
+            <ul>
+                <li><img src="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/05/Screenshot-2025-11-21-134150-2200x1234-1-656x368.png" alt="Disney Magic cruise ship" style="max-width:100%;height:auto;" /><br/><em>Disney Magic — David T. Flaherty, CC BY 2.0 commons/wikimedia</em></li>
+                <li><img src="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/05/Screenshot-2026-05-06-144935.png" alt="CBP detaining Disney crew members on dock in San Diego" style="max-width:100%;height:auto;" /><br/><em>Video screenshot: CBP escorting Disney crew members into immigration vans — Dharmi Mehta</em></li>
+                <li><img src="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/05/Screenshot-2026-04-21-142407-1100x734-1-656x438.png" alt="Detained crew members in restraints" style="max-width:100%;height:auto;" /><br/><em>Detained crew members — DFO Florida and Customs and Border Protection</em></li>
+            </ul>
+        ]]></description>
+        <media:content url="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/05/Screenshot-2025-11-21-134150-2200x1234-1-656x368.png" medium="image" width="656" height="368">
+            <media:description>Disney Magic cruise ship</media:description>
+        </media:content>
+        <media:content url="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/05/Screenshot-2026-05-06-144935.png" medium="image" width="454" height="457">
+            <media:description>CBP detaining Disney crew members on dock in San Diego</media:description>
+        </media:content>
+        <media:content url="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/05/Screenshot-2026-04-21-142407-1100x734-1-656x438.png" medium="image" width="656" height="438">
+            <media:description>Detained crew members in restraints</media:description>
+        </media:content>
+    </item>
 
-MIT
+    <!-- Item 3 -->
+    <item>
+        <title>Norwegian Dawn Fails CDC Health Inspection</title>
+        <link>https://www.cruiselawnews.com/2026/05/articles/disease-outbreaks/norwegian-dawn-fails-health-inspection/</link>
+        <guid isPermaLink="false">https://www.cruiselawnews.com/?p=28877</guid>
+        <pubDate>Tue, 12 May 2026 17:40:16 +0000</pubDate>
+        <dc:creator>Jim Walker</dc:creator>
+        <category>Health &amp; Sanitation</category>
+        <category>Norwegian Cruise Line</category>
+        <description><![CDATA[
+            <p><strong>Incident:</strong> Norwegian Dawn received an unsatisfactory CDC score of 84/100 during an inspection in Tampa, Florida.</p>
+            <p>Violations included fruit flies in buffet areas, mold in ice machines, refrigeration failures, and unknown liquid dripping in food prep zones.</p>
+            <p>Norwegian submitted corrective actions. This was the first cruise ship failure in 2026.</p>
+            <p><em>No images were published with the original article.</em></p>
+        ]]></description>
+    </item>
+
+    <!-- Item 4 -->
+    <item>
+        <title>Norwegian Getaway Passenger Dies While Snorkeling in Bahamas</title>
+        <link>https://www.cruiselawnews.com/2026/05/articles/death-injury/norwegian-getaway-passenger-dies-while-snorkeling-in-bahamas/</link>
+        <guid isPermaLink="false">https://www.cruiselawnews.com/?p=28894</guid>
+        <pubDate>Fri, 08 May 2026 15:55:28 +0000</pubDate>
+        <dc:creator>Jim Walker</dc:creator>
+        <category>Death &amp; Injury</category>
+        <category>Norwegian Cruise Line</category>
+        <description><![CDATA[
+            <p><strong>Incident:</strong> An 83-year-old American passenger died while snorkeling at Great Stirrup Cay (Norwegian's private island) on May 3.</p>
+            <p>He was found unresponsive by his son. Local authorities ruled it an apparent drowning.</p>
+            <p><em>No images were published with the original article.</em></p>
+        ]]></description>
+    </item>
+
+    <!-- Item 5 -->
+    <item>
+        <title>Norovirus Outbreak Sickens 115 on Caribbean Princess</title>
+        <link>https://www.cruiselawnews.com/2026/05/articles/disease-outbreaks/norovirus-outbreak-sickens-115-people-on-caribbean-princess/</link>
+        <guid isPermaLink="false">https://www.cruiselawnews.com/?p=28879</guid>
+        <pubDate>Thu, 07 May 2026 18:22:34 +0000</pubDate>
+        <dc:creator>Jim Walker</dc:creator>
+        <category>Disease Outbreak</category>
+        <category>Princess Cruises</category>
+        <description><![CDATA[
+            <p><strong>Incident:</strong> 102 passengers and 13 crew members sickened by norovirus on a 13-day Caribbean cruise (3.3% of passengers affected).</p>
+            <p>Ship remains at sea until May 11. This is the fourth GI outbreak reported by CDC in 2026.</p>
+            <p><em>No images were published with the original article.</em></p>
+        ]]></description>
+    </item>
+
+    <!-- Item 6 -->
+    <item>
+        <title>Woman Assaults Teen on Carnival Sunshine, Walks Off Ship</title>
+        <link>https://www.cruiselawnews.com/2026/05/articles/crime/woman-walks-off-carnival-ship-after-assaulting-teen/</link>
+        <guid isPermaLink="false">https://www.cruiselawnews.com/?p=28847</guid>
+        <pubDate>Wed, 06 May 2026 21:21:19 +0000</pubDate>
+        <dc:creator>Jim Walker</dc:creator>
+        <category>Crime</category>
+        <category>Carnival Cruise Line</category>
+        <description><![CDATA[
+            <p><strong>Incident:</strong> Jennifer Frost, 44, allegedly punched a teenager in the face, breaking her nose, on the Carnival Sunshine in March.</p>
+            <p>She was detained but allowed to disembark. She later surrendered in Miami.</p>
+            <p><em>No images were published with the original article.</em></p>
+        ]]></description>
+    </item>
+
+    <!-- Item 7 -->
+    <item>
+        <title>Woman Identified in Fatal Fall on Carnival Firenze</title>
+        <link>https://www.cruiselawnews.com/2026/05/articles/death-injury/woman-identified-in-fatal-fall-on-carnival-firenze/</link>
+        <guid isPermaLink="false">https://www.cruiselawnews.com/?p=28835</guid>
+        <pubDate>Wed, 06 May 2026 16:09:45 +0000</pubDate>
+        <dc:creator>Jim Walker</dc:creator>
+        <category>Death &amp; Injury</category>
+        <category>Carnival Cruise Line</category>
+        <description><![CDATA[
+            <p><strong>Incident:</strong> 24-year-old Brianna Miller fell from her balcony on the Carnival Firenze near Catalina Island, California, on April 27.</p>
+            <p>FBI is investigating; foul play not ruled out.</p>
+            <p><em>No inline images were published with the original article. Photo credit noted as Wikipedia (Carnival Firenze, formerly Costa Firenze).</em></p>
+        ]]></description>
+    </item>
+
+    <!-- Item 8 -->
+    <item>
+        <title>Hantavirus Outbreak Kills Three on Expedition Ship Hondius</title>
+        <link>https://www.cruiselawnews.com/2026/05/articles/disease-outbreaks/hantavirus-outbreak-kills-three-aboard-cruise-ship-two-sick-crew-members-still-awaiting-medical-care/</link>
+        <guid isPermaLink="false">https://www.cruiselawnews.com/?p=28807</guid>
+        <pubDate>Tue, 05 May 2026 05:02:22 +0000</pubDate>
+        <dc:creator>Jim Walker</dc:creator>
+        <category>Disease Outbreak</category>
+        <category>Oceanwide Expeditions</category>
+        <description><![CDATA[
+            <p><strong>Incident:</strong> Three passengers dead and several others sick from suspected hantavirus on the Hondius. Ship is stranded off Cape Verde.</p>
+            <p>Two crew members still awaiting medical evacuation. First known hantavirus outbreak on a cruise ship.</p>
+            <p><strong>Images:</strong></p>
+            <ul>
+                <li><img src="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/05/image.png" alt="Hondius ship location off Cape Verde (The Cruise Globe)" style="max-width:100%;height:auto;" /><br/><em>Hondius location stranded outside Praia, Cape Verde (The Cruise Globe)</em></li>
+            </ul>
+        ]]></description>
+        <media:content url="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/05/image.png" medium="image" width="550" height="738">
+            <media:description>Hondius ship location off Cape Verde (The Cruise Globe)</media:description>
+        </media:content>
+    </item>
+
+    <!-- Item 9 -->
+    <item>
+        <title>Crew Member Goes Overboard from Norwegian Breakaway off Cape Cod</title>
+        <link>https://www.cruiselawnews.com/2026/04/articles/disappearances/crew-member-goes-overboard-from-norwegian-breakaway-off-the-coast-of-cape-cod/</link>
+        <guid isPermaLink="false">https://www.cruiselawnews.com/?p=28686</guid>
+        <pubDate>Sun, 26 Apr 2026 17:01:51 +0000</pubDate>
+        <dc:creator>Jim Walker</dc:creator>
+        <category>Overboard Incident</category>
+        <category>Norwegian Cruise Line</category>
+        <description><![CDATA[
+            <p><strong>Incident:</strong> A galley crew member (Indian national) went overboard from the Norwegian Breakaway off Wellfleet, Massachusetts on April 25.</p>
+            <p>Ship conducted a 4-hour search before resuming course. U.S. Coast Guard assisted.</p>
+            <p><strong>Images:</strong></p>
+            <ul>
+                <li><img src="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/04/image-3-642x740.png" alt="Norwegian Breakaway Search and Rescue Operation tracking map (The Cruise Globe)" style="max-width:100%;height:auto;" /><br/><em>Norwegian Breakaway Search and Rescue Operation — ship tracking during course change (The Cruise Globe)</em></li>
+            </ul>
+        ]]></description>
+        <media:content url="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/04/image-3-642x740.png" medium="image" width="642" height="740">
+            <media:description>Norwegian Breakaway Search and Rescue Operation tracking map (The Cruise Globe)</media:description>
+        </media:content>
+    </item>
+
+    <!-- Item 10 -->
+    <item>
+        <title>Q1 2026 Cruise Crime Report: Royal Caribbean Leads With 14 Incidents</title>
+        <link>https://www.cruiselawnews.com/2026/04/articles/crime/cruise-crime-report-q1-2026-royal-caribbean-leads-all-cruise-lines-with-14-crimes/</link>
+        <guid isPermaLink="false">https://www.cruiselawnews.com/?p=28659</guid>
+        <pubDate>Thu, 23 Apr 2026 19:45:10 +0000</pubDate>
+        <dc:creator>Jim Walker</dc:creator>
+        <category>Crime Statistics</category>
+        <description><![CDATA[
+            <p><strong>Summary:</strong> 43 crimes reported across cruise lines in Q1 2026. Royal Caribbean had 14, Carnival 11. Sexual assaults remain the dominant category.</p>
+            <p>Data is known to be underreported due to self-reporting by cruise lines.</p>
+            <p><strong>Images:</strong></p>
+            <ul>
+                <li><img src="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/04/image-2-656x423.png" alt="Historical Cruise Crime Data chart showing reported crimes by year" style="max-width:100%;height:auto;" /><br/><em>Historical cruise crime data graph — reported crimes across all cruise lines since 2016, showing nearly twofold increase through 2025</em></li>
+            </ul>
+        ]]></description>
+        <media:content url="https://www.cruiselawnews.com/wp-content/uploads/sites/940/2026/04/image-2-656x423.png" medium="image" width="656" height="423">
+            <media:description>Historical Cruise Crime Data chart showing reported crimes by year</media:description>
+        </media:content>
+    </item>
+
+</channel>
+</rss>
