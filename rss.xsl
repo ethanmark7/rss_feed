@@ -23,46 +23,51 @@
                     body {
                         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
                         line-height: 1.6;
-                        color: #333;
-                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                        color: #2c3e50;
+                        background: #f5f7fa;
                         min-height: 100vh;
                         padding: 20px;
                     }
                     
                     .container {
-                        max-width: 900px;
+                        max-width: 1000px;
                         margin: 0 auto;
                         background: white;
-                        border-radius: 12px;
-                        box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+                        border-radius: 8px;
+                        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
                         overflow: hidden;
                     }
                     
                     .header {
-                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                        background: #2c3e50;
                         color: white;
-                        padding: 40px 30px;
-                        text-align: center;
+                        padding: 50px 40px;
+                        border-bottom: 4px solid #3498db;
                     }
                     
                     .header h1 {
-                        font-size: 2.5em;
-                        margin-bottom: 10px;
-                        font-weight: 700;
+                        font-size: 2.2em;
+                        margin-bottom: 12px;
+                        font-weight: 600;
+                        letter-spacing: -0.5px;
                     }
                     
                     .header p {
-                        font-size: 1.1em;
-                        opacity: 0.95;
+                        font-size: 1.05em;
+                        opacity: 0.9;
                         margin-bottom: 20px;
+                        max-width: 800px;
+                        margin-left: auto;
+                        margin-right: auto;
                     }
                     
                     .rss-info {
-                        background: rgba(255,255,255,0.2);
-                        padding: 15px;
-                        border-radius: 8px;
+                        background: rgba(52, 152, 219, 0.15);
+                        padding: 12px 20px;
+                        border-radius: 6px;
                         margin-top: 20px;
                         font-size: 0.9em;
+                        border-left: 3px solid #3498db;
                     }
                     
                     .rss-info strong {
@@ -75,13 +80,13 @@
                     }
                     
                     .item {
-                        border-bottom: 1px solid #e0e0e0;
-                        padding: 30px 0;
-                        transition: transform 0.2s;
+                        border-bottom: 1px solid #e8ecef;
+                        padding: 35px 0;
+                        transition: background-color 0.2s;
                     }
                     
                     .item:hover {
-                        transform: translateX(5px);
+                        background-color: #fafbfc;
                     }
                     
                     .item:last-child {
@@ -89,63 +94,76 @@
                     }
                     
                     .item h2 {
-                        font-size: 1.5em;
-                        margin-bottom: 10px;
-                        color: #667eea;
+                        font-size: 1.4em;
+                        margin-bottom: 12px;
+                        color: #2c3e50;
+                        font-weight: 600;
+                        line-height: 1.4;
                     }
                     
                     .item h2 a {
-                        color: #667eea;
+                        color: #2c3e50;
                         text-decoration: none;
                         transition: color 0.2s;
                     }
                     
                     .item h2 a:hover {
-                        color: #764ba2;
-                        text-decoration: underline;
+                        color: #3498db;
                     }
                     
                     .meta {
                         display: flex;
                         flex-wrap: wrap;
-                        gap: 15px;
-                        margin-bottom: 15px;
-                        font-size: 0.9em;
-                        color: #666;
+                        gap: 20px;
+                        margin-bottom: 16px;
+                        font-size: 0.88em;
+                        color: #7f8c8d;
                     }
                     
                     .meta-item {
                         display: flex;
                         align-items: center;
-                        gap: 5px;
+                        gap: 6px;
                     }
                     
                     .category {
                         display: inline-block;
-                        background: #f0f0f0;
-                        padding: 4px 12px;
-                        border-radius: 20px;
-                        font-size: 0.85em;
-                        color: #555;
-                        margin-right: 5px;
-                        margin-bottom: 5px;
+                        background: #ecf0f1;
+                        padding: 5px 14px;
+                        border-radius: 4px;
+                        font-size: 0.82em;
+                        color: #34495e;
+                        margin-right: 6px;
+                        margin-bottom: 6px;
+                        font-weight: 500;
+                        border: 1px solid #dfe6e9;
                     }
                     
                     .description {
-                        color: #555;
-                        line-height: 1.8;
+                        color: #5a6c7d;
+                        line-height: 1.7;
+                        font-size: 0.95em;
                     }
                     
                     .description p {
-                        margin-bottom: 15px;
+                        margin-bottom: 14px;
+                    }
+                    
+                    .description strong {
+                        color: #2c3e50;
+                        font-weight: 600;
                     }
                     
                     .description img {
-                        max-width: 100%;
+                        width: 100%;
+                        max-width: 700px;
                         height: auto;
-                        border-radius: 8px;
-                        margin: 15px 0;
-                        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                        object-fit: cover;
+                        border-radius: 6px;
+                        margin: 20px 0;
+                        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+                        border: 1px solid #e8ecef;
+                        display: block;
                     }
                     
                     .description ul {
@@ -154,15 +172,27 @@
                     }
                     
                     .description li {
-                        margin-bottom: 15px;
+                        margin-bottom: 18px;
+                    }
+                    
+                    .description em {
+                        color: #7f8c8d;
+                        font-size: 0.9em;
+                        display: block;
+                        margin-top: 8px;
                     }
                     
                     .footer {
                         background: #f8f9fa;
-                        padding: 20px 30px;
+                        padding: 25px 40px;
                         text-align: center;
-                        color: #666;
-                        font-size: 0.9em;
+                        color: #7f8c8d;
+                        font-size: 0.88em;
+                        border-top: 1px solid #e8ecef;
+                    }
+                    
+                    .footer p {
+                        margin: 5px 0;
                     }
                     
                     @media (max-width: 768px) {
@@ -170,8 +200,16 @@
                             padding: 10px;
                         }
                         
+                        .header {
+                            padding: 30px 20px;
+                        }
+                        
                         .header h1 {
-                            font-size: 1.8em;
+                            font-size: 1.6em;
+                        }
+                        
+                        .header p {
+                            font-size: 0.95em;
                         }
                         
                         .content {
@@ -179,7 +217,15 @@
                         }
                         
                         .item {
-                            padding: 20px 0;
+                            padding: 25px 0;
+                        }
+                        
+                        .item h2 {
+                            font-size: 1.2em;
+                        }
+                        
+                        .description img {
+                            max-width: 100%;
                         }
                     }
                 </style>
